@@ -24,7 +24,7 @@ body {
 }
 
 #main-content a {
-  font-size: 12pt;
+  font-size: 16pt;
   color: #1E90FF;
   font-family: "Times New Roman", Times, serif;
   margin-top:0;
@@ -33,6 +33,14 @@ body {
 
 #cover-right {
   margin-top: -22px;
+}
+
+#cover-right a {
+  font-size: 12pt;
+  color: #1E90FF;
+  font-family: "Times New Roman", Times, serif;
+  margin-top:0;
+  margin-bottom:10;
 }
 
 #introduction {
@@ -79,12 +87,43 @@ p {
 }
 
 #cited {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
 #cited p {
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+#advisors p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#advisors {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#editorial p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#editorial {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#about {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#submit {
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 /*#################
