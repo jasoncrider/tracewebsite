@@ -10,6 +10,10 @@ body {
   cover page
 ###########*/
 
+#copyicon {
+  font-weight: bold;
+}
+
 #issue-sub {
   font-size: 12;
   font-family: 'Raleway', sans-serif;
@@ -124,6 +128,20 @@ p {
 #submit {
   margin-top: 20px;
   margin-bottom: 100px;
+}
+
+#license p {
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#credits p {
+  font-size: 16pt;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*#################

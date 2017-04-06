@@ -26,6 +26,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="css/custom.css" rel="stylesheet">
 
 
@@ -50,7 +51,7 @@
       </div>
     </div>
           <!-- Fixed navbar -->
-          <nav class="navbar navbar-default">
+          <nav id="toc" class="navbar navbar-default">
             <div class="container">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -62,14 +63,43 @@
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                  <li><a href="index.html">Home</a></li>
+                  <li class="navlinks"><a href="index.html">Home</a></li>
                   <li class="navlinks"><a href="issues.html">Issues</a></li>
                   <li class="navlinks"><a href="about.html">About</a></li>
-                  <li class="active navlinks"><a href="submit.html">Submissions</a></li>
-                </ul>
+                  <li class="active"><a href="submit.html">Submissions</a></li>
+                  <li class="navlinks"><a class="copyicon" data-target="#copymodal" data-toggle="modal"><i class="fa fa-copyright" aria-hidden="true"></i></a></li>
               </div><!--/.nav-collapse -->
             </div>
           </nav>
+    <!-- Copyright modal -->
+
+<div id="copymodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Copyright</h4>
+      </div>
+      <div class="modal-body">
+        <p><div id="license">
+          <p><strong>Creative Commons License </strong></p>
+              <p><em>Trace</em> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.​</p>
+              <p>Authors of accepted texts will retain copyright of their work. <em>Trace</em> retains the right to publish and distribute authors&rsquo; work electronically and in print, including archiving and making these items permanently retrievable electronically. Since authors retain copyright interest in their work, however, they may republish their text in any manner they wish&mdash;electronic or print&mdash;as long as they clearly acknowledge <em>Trace</em> as its original site of publication. Authors manage permissions for their work.</p>
+              <p>Copyright for the journal, including its design, editorial activities, framework, and the journal specific version belong to <em>Trace</em> and its editorial board. No individual or institution may claim ownership or place any restrictions on the form, format, content, or distribution of the journal.</p>
+              <p><em>Trace</em> supports the <a href="http://creativecommons.org">Creative Commons</a> project and has licensed its content for anyone to copy, distribute, display, or perform <em>Trace</em> as a whole under the following conditions: work must credit original author(s); work cannot be used for commercial purposes; and work must be granted the same license terms.</p>
+              <p>To facilitate authors&rsquo; control over copyright and the rights they extend to others, we encourage authors to place a CC license on their work as well. Authors published in <em>Trace</em> grant to the journal the rights listed above, which supersede any other licensing of their work.</p>
+               <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></p>
+        </div></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
           <!-- Main page content -->
           <div id="main-content" class="container">
