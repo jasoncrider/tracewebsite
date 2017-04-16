@@ -152,6 +152,11 @@ p {
   margin-bottom: 50px;
 }
 
+#cfp li {
+  font-size: 16pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .returntoc {
   margin-top: 100px;
 }
