@@ -214,6 +214,11 @@ p {
   margin-left: 15px;
 }
 
+#copymodal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .wide {
   z-index: -1;
   width:100%;
@@ -236,7 +241,7 @@ p {
 
   #subtitle {
     font-size: 11px;
-    margin-left:10px;
+    margin-left: 10px;
   }
 }
 
